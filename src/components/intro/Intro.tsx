@@ -1,6 +1,9 @@
+import './intro.scss'
 
 export default function Intro() {
-  return (
-    <div>Intro</div>
-  )
+    return (
+        <div className="introCvr">
+            Intro
+        </div>
+    )
 }

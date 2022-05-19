@@ -7,16 +7,24 @@ html {
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
 body {
     padding: 0;
     margin: 0;
     display: block;
     position: relative;
+    // overflow: hidden;
     color: var(--text-color);
     background: #ecf0f1 !important;
     background: u1.$background_main_color !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+%block_display {
+    display: block;
+    position: relative;
+    overflow: hidden;
 }
 
 body,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p, blockquote {margin:0; padding:0;}

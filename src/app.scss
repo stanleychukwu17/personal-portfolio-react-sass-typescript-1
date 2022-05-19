@@ -1,1 +1,6 @@
 @forward './styles/scss/globals/';
+
+.mainApp {
+    background-color: rebeccapurple;
+    @extend %block_display; // the variable is from the './styles/scss/globals/_boilerplate.scss'
+}
