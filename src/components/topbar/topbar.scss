@@ -1,5 +1,7 @@
+@use '../../styles/scss/util/' as u1;
+
 .topCvr {
     width: 100vw;
-    height: 70px;
+    height: u1.rem(70);
     background-color: hsl(5, 22%, 10%);
 }

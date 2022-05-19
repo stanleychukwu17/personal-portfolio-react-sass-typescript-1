@@ -1,8 +1,1 @@
 @forward './styles/scss/globals/';
-@use './styles/scss/globals/' as u1;
-
-body {
-    margin: 0;
-    // color: u1.$link_color;
-    color: greenyellow
-}
