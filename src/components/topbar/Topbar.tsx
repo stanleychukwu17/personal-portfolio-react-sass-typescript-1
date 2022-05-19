@@ -1,6 +1,9 @@
+import './topbar.scss'
 
 export default function Topbar() {
   return (
-    <div>Topbar</div>
+    <div className='topCvr'>
+        Topbar
+    </div>
   )
 }

@@ -1,0 +1,40 @@
+@use '../util/' as u1;
+@use 'colors' as u2;
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0; margin: 0;
+    color: var(--text-color);
+    background: #ecf0f1 !important; position: relative; display: block;
+    background: var(--background-color) !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p, blockquote {margin:0; padding:0;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+img{border:0}
+a { color: u2.$link_color; }
+
+// h1 {
+//     font-size: u1.rem(22);
+
+//     @include u1.breakpoints(medium) {
+//         font-size: u1.rem(28);
+//     }
+
+//     @include u1.breakpoints(large) {
+//         font-size: u1.rem(36);
+//     }
+// }
+// h2 {
+//     font-size: calc(u1.rem(10) + 2vw); // this is very web responsive
+//     font-size: min(calc(u1.rem(10) + 2vw), u1.rem(35)); // this is very web responsive
+// }
